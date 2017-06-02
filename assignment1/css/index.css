@@ -16,15 +16,14 @@
 
 ul {
 	list-style-type: none;
-	margin: 15px 10% 15px 55%;
 	line-height: 30px;
-	text-align: right;
+	float: right;
 	font-size: 25px;
 }
 
 li {
 	display: inline;
-	margin-right: 60px;
+	padding-right: 60px;
 }
 
 .middle-left {
@@ -32,7 +31,7 @@ li {
 	background-color: #2dd2d2;
 	height: 400px;
 	float: left;
-	margin: 40px 20px 40px 20px;
+	margin: 60px 20px 40px 20px;
 }
 
 .left-content {
@@ -48,11 +47,11 @@ li {
 }
 
 .first-left {
-	background-image: url("cat1.jpg");
+	background-image: url("../img/cat1.jpg");
 	}
 
 .second-left {
-	background-image: url("cat2.jpg");
+	background-image: url("../img/cat2.jpg");
 }
 
 .middle-right {
@@ -60,7 +59,7 @@ li {
 	background: #2dd2d2;
 	height: 400px;
 	float: left;
-	margin: 40px 20px 40px 20px;
+	margin: 60px 20px 40px 20px;
 }
 
 .right-content {
@@ -76,11 +75,11 @@ li {
 }
 
 .first-right {
-	background-image: url(cat3.jpg);
+	background-image: url(../img/cat3.jpg);
 }
 
 .second-right {
-	background-image: url(cat4.jpg);
+	background-image: url(../img/cat4.jpg);
 }
 
 .footer {
@@ -89,7 +88,7 @@ li {
 	float: left;
 	text-align: center;
 	margin: 20px 20px 20px 20px;
-	width: 30.6%;
+	width: 30.3%;
 	font-size: 20px;
 	background-color: #abeded;
 }
