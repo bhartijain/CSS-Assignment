@@ -1,0 +1,16 @@
+
+.carrer {
+	height:250px;
+	background-color:#e6e6e6;
+}
+.carrer-option {
+	float:left;
+	width:49%;
+}
+.carrer-line {
+	border-style: none;
+    background-color: white;
+    height: 5px;
+    width: 50%;
+    margin: 20px auto;
+}

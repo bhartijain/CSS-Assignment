@@ -1,0 +1,37 @@
+.footer {
+	height:150px;
+	background-color:white;
+}
+.footer-cell {
+	width:50%;
+	height:150px;
+	float:left;
+}
+.footer-left-image {
+	width: 20%;
+    height: 70px;
+    background-color: #808080;
+    margin: 30px 10px 10px 40px;
+    float:left;
+}
+.footer-line-1 {
+	background-color: #e6e6e6;
+    border-style: none;
+    width: 50%;
+    height: 5px;
+    margin: 30px;
+}
+.footer-line-2 {
+	background-color: #e6e6e6;
+    border-style: none;
+    width: 40%;
+    height: 5px;
+    margin: 30px;
+}
+.footer-right-cell {
+    width: 7%;
+    height: 40px;
+    background-color: #e6e6e6;
+    float: right;
+    margin: 50px 25px 30px -10px;
+}

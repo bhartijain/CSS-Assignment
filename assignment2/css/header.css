@@ -1,0 +1,36 @@
+.header {
+	height: 60px;
+    background-color: #808080;
+}
+
+.navbar {
+	width:97%;
+}
+
+ul {
+	list-style-type: none;
+	float:right;
+}
+li {
+	display: inline;
+	padding-right: 40px;
+}
+.navbar-list-item {
+    float: right;
+    width: 50px;
+    height: 7px;
+    background-color: white;
+    border-width: 1px;
+    margin: 10px 10px 10px 10px;
+}
+.navbar-button {
+	height:30px;
+	width:90px;	
+}
+.logo {
+    height: 90px;
+    width: 80px;
+    float: left;
+    background-color: #333333;
+    margin-left: 40px;
+}

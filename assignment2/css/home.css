@@ -1,0 +1,29 @@
+.home-slide {
+	background-color:#e6e6e6;
+	height:400px;
+}
+.home-content {
+	padding:30px;
+}
+.home-line-1{
+	margin: 130px 60px 10px 360px;
+    height: 20px;
+    width: 40%;
+    background-color: white;
+    border-style:none;
+}
+.home-line-2 {
+    width: 70%;
+}
+.home-line-3 {
+    width: 60%;
+}
+.home-line-4 {
+    width: 50%;
+}
+.home-line-common {
+    margin: 10px auto;
+    height: 10px;
+    background-color: white;
+    border-style:none;
+}

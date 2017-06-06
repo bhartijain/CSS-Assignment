@@ -1,0 +1,14 @@
+.video {
+	height:300px;
+	background-color:#e6e6e6;
+	padding:60px;
+}
+.video-part {
+	background-color: #808080;
+	height:260px;
+	width:40%;
+	margin:0 auto;
+}
+.video-img {
+	padding:70px 160px;
+}

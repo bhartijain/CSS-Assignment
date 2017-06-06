@@ -1,0 +1,42 @@
+.contact {
+	height:150px;
+}
+.contact-cell {
+	width:50%;
+	height:150px;
+	float:left;
+}
+.contact-cell-1{
+	background-color: green;
+}
+.contact-cell-2 {
+	background-color: orange;
+}
+.contact-line-1 {
+	border-style: none;
+    height: 5px;
+    width: 35%;
+    margin: 40px 10px 10px 200px;
+    background-color: white;
+}
+.contact-line-2 {
+    height: 3px;
+    width: 70%;
+    margin: 10px auto;
+    background-color: white;
+    border-style: none;
+}
+.contact-line-3 {
+	background-color: white;
+    border-style: none;
+    height: 3px;
+    width: 50%;
+
+}
+.contact-line-4
+{
+    border-style: none;
+    background-color: white;
+    width: 20%;
+    height: 40px;
+}

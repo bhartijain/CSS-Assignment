@@ -1,0 +1,48 @@
+.about {
+	height:400px;
+	background-color:white;
+}
+.about-part {
+	width:20%;
+	height:350px;
+	margin:20px 20px 20px 35px;
+	float:left;
+	background-color:#e6e6e6; 
+}
+.about-cell {
+	height:180px;
+	margin-top:170px;
+}
+.about-cell-1 {
+	background-color: green;
+}
+.about-cell-2 {
+	background-color: orange;
+}
+.about-cell-3 {
+	background-color: red;
+}
+.about-cell-4 {
+	background-color: blue;
+}
+.about-line-1 {
+	width: 50%;
+    height: 10px;
+}
+.about-line-2 {
+	width: 70%;
+    height: 3px;
+}
+.about-line-3 {
+	width: 50%;
+    height: 3px;
+}
+.about-line-4 {
+    height: 40px;
+    width: 40%;
+}
+.about-common-line {
+	border-style:none;
+	background-color: white;
+ 	margin: 10px auto;
+}
