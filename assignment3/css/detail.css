@@ -1,0 +1,31 @@
+.detail-page {
+	background-color: white;
+    width: 72%;
+    height: 700px;
+    float: right;
+}
+.email-section {
+	margin:20px;	
+}
+.add-member {
+	float:right;
+}
+.email-address {
+	margin-top:20px;
+}
+input[type="textbox"] {
+	width:95%;
+	height:100px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.btn-send-invitaion {
+	margin:15px;
+	display:block;
+}
+.email-section-seperator {
+	margin: 0px auto;
+    border-style: dashed;
+    width: 95%;
+    color:grey;
+}

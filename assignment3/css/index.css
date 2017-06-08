@@ -76,9 +76,3 @@ select {
 .organization-list li {
 	margin:10px auto;
 }
-.detail-page {
-	background-color: white;
-    width: 72%;
-    height: 700px;
-    float: right;
-}
