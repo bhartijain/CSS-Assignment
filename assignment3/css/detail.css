@@ -49,3 +49,14 @@ input[type="textbox"] {
     width: 95%;
     color:grey;
 }
+
+.invitation-section {
+	margin:20px;
+}
+.invitation-list {
+	list-style-type: none;
+}
+.invitation-list li button {
+	float:right;
+	margin:5px;
+}
