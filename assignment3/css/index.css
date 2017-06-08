@@ -4,7 +4,6 @@
 	background-color: #f2f2f2;
 }
 .container {
-	border:solid;
 	height:auto;
 	width:80%;
 	margin:0px auto;
@@ -31,9 +30,13 @@ select {
     font-size: large;
     width: 90px;
 }
+.middle-container {
+	margin-top:20px;
+}
 .sidebar {
 	background-color: white;
     width: 26%;
+    float:left;
 }
 .sidebar-list {
 	list-style-type: none;
@@ -53,6 +56,9 @@ select {
 	width:26%;
 	margin-top:20px;
 	margin-bottom:20px;
+	font-size:20px;
+	padding-left:10px;
+
 }
 .organization-seperator {
 	margin: 0px;
@@ -62,7 +68,17 @@ select {
 }
 .organization h4 {
 	display:inline;
+	margin-right: 10px;
 }
 .organization a{
 	float:right;
+}
+.organization-list li {
+	margin:10px auto;
+}
+.detail-page {
+	background-color: white;
+    width: 72%;
+    height: 700px;
+    float: right;
 }
