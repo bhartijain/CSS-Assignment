@@ -29,3 +29,23 @@ input[type="textbox"] {
     width: 95%;
     color:grey;
 }
+
+.member-section {
+	margin:20px;
+}
+.member-list {
+	list-style-type: none;
+}
+.member-list li {
+	margin:10px;
+}
+.member-list li button {
+	float:right;
+	margin:5px;
+}
+.member-section-seperator {
+	margin: 0px auto;
+    border-style: dashed;
+    width: 95%;
+    color:grey;
+}
