@@ -37,10 +37,14 @@ input[type="textbox"] {
 	list-style-type: none;
 }
 .member-list li {
-	margin:10px;
+	margin: 20px 10px 20px -28px;
 }
-.member-list li button {
+.btn-member {
 	float:right;
+	margin-top:-14px;
+	
+}
+.btn-member button {
 	margin:5px;
 }
 .member-section-seperator {
@@ -51,12 +55,17 @@ input[type="textbox"] {
 }
 
 .invitation-section {
-	margin:20px;
+	margin: 20px 10px 20px 28px;
 }
 .invitation-list {
 	list-style-type: none;
 }
-.invitation-list li button {
+.invitation-list li {
+	margin:20px;
+}
+.btn-invitation{
 	float:right;
+}
+.btn-invitation button {
 	margin:5px;
 }
