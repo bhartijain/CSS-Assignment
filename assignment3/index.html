@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<link rel = "stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel = "stylesheet" type="text/css" href="css/index.css">
 <link rel = "stylesheet" type="text/css" href="css/detail.css">
 </head>
@@ -12,6 +13,7 @@
 			<div><img src="img/logo.png"></div>
 			<div class="header-dropdown">
 				<select>
+					<option> Your name </option>
 					<option>Logout</option>
 				</select>
 			</div>
@@ -20,10 +22,10 @@
 		<div class="middle-container">
 			<div class="sidebar">
 				<ul class="sidebar-list">
-					<li>Members</li>
-					<li>Webhooks</li>
-					<li>Runs, Tags and Event Logs</li>
-					<li>Reports</li>
+					<li><span class="fa fa-users"></span>Members</li>
+					<li><i class="fa fa-globe"></i>Webhooks</li>
+					<li><span class="fa fa-users"></span>Runs, Tags and Event Logs</li>
+					<li><i class="fa fa-globe"></i>Reports</li>
 				</ul>
 			</div>
 			<div class="detail-page">
@@ -32,9 +34,8 @@
 					<button class = "add-member">Add members</button>
 					<div class="email-address">
 						<span>Enter multiple email address</span>
-						<br>
 						<input type="textbox">
-						<span>Seperate multiple email addresses using comma(,) or by pressing enter</span>
+						<span class="text-disable">Seperate multiple email addresses using comma(,) or by pressing enter</span>
 						<button class="btn-send-invitaion" disabled>Send Invitation</button>
 					</div>
 				</div>
@@ -45,12 +46,12 @@
 							<h3>Members(3)</h3>
 						</li>
 						<li>
-							<strong>Member_one</strong><span> (You are the owner)</span>
+							<strong>Member_one</strong><span class="text-disable"> (You are the owner)</span>
 						</li>
 						<li>
 							<strong>Member_two</strong>
 								<br>
-							<span>b@gmail.com</span>
+							<span class="text-disable">b@gmail.com</span>
 							<div class="btn-member">
 								<button>Make Owner</button>
 								<button>Remove</button>
@@ -59,7 +60,7 @@
 						<li>
 							<strong>Member_three</strong>
 							<br>
-							<span>a@gmail.com</span>
+							<span class="text-disable">a@gmail.com</span>
 							<div class="btn-member">
 								<button>Make Owner</button>
 								<button>Remove</button>
@@ -74,14 +75,14 @@
 					<br>
 					<ul class="invitation-list">
 						<li>
-							<span>b@gmail.com has been invited</span>
+							<span>b@gmail.com <span class="text-disable">has been invited</span></span>
 							<div class="btn-invitation">
 								<button>Resend</button>
 								<button>Cancel</button>
 							</div>
 						</li>
 						<li>
-							<span>b@gmail.com has been invited</span>
+							<span>b@gmail.com <span class="text-disable">has been invited</span></span>
 							<div class="btn-invitation">
 								<button>Resend</button>
 								<button>Cancel</button>
@@ -93,9 +94,9 @@
 		</div>
 		<hr class="sidebar-seperator">
 		<div class="organization">
-			<h3>Organization</h3>
+			<h4><i class="fa fa-globe"></i>Organization</h4>
 			<hr class="organization-seperator">
-			<h4>Organization Name</h4>
+			<h5>Organization Name</h5>
 			<a href="#">Details</a>
 			<ul class="organization-list">
 				<li>You are the owner</li>

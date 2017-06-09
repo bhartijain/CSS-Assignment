@@ -24,7 +24,7 @@ input[type="textbox"] {
 	display:block;
 }
 .email-section-seperator {
-	margin: 0px auto;
+/*	margin: 0px auto; */
     border-style: dashed;
     width: 95%;
     color:grey;
@@ -59,12 +59,15 @@ input[type="textbox"] {
 }
 .invitation-list {
 	list-style-type: none;
+	padding:0px;
 }
 .invitation-list li {
-	margin:20px;
+	margin-top:20px;
 }
 .btn-invitation{
 	float:right;
+	margin-top:-7px;
+	margin-right:20px;
 }
 .btn-invitation button {
 	margin:5px;

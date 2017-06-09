@@ -27,8 +27,7 @@ img {
 }
 select {
 	border: none;
-    font-size: large;
-    width: 90px;
+    font-size: medium;
 }
 .middle-container {
 	margin-top:20px;
@@ -37,13 +36,15 @@ select {
 	background-color: white;
     width: 26%;
     float:left;
+    margin-bottom:25px;
 }
 .sidebar-list {
 	list-style-type: none;
     font-size: 20px;
+    padding:0px;
 }
 .sidebar-list li {
-	margin:15px auto;
+	    margin: 15px 0px 15px 9px;
 }
 .sidebar-seperator {
 	margin: 0px;
@@ -54,8 +55,8 @@ select {
 .organization {
 	background-color: white;
 	width:26%;
-	margin-top:20px;
-	margin-bottom:20px;
+/*	margin-top:20px;
+	margin-bottom:20px; */
 	font-size:20px;
 	padding-left:10px;
 
@@ -67,12 +68,26 @@ select {
     margin-bottom:20px;
 }
 .organization h4 {
+	padding-top: 15px;
+    margin-bottom: 15px;
+}
+.organization h5 {
 	display:inline;
 	margin-right: 10px;
 }
 .organization a{
 	float:right;
+	margin-right:5px;
 }
 .organization-list li {
-	margin:10px auto;
+	padding-bottom:20px;
+}
+
+.fa {
+	    font-size: inherit;
+    margin-right: 8px;
+}
+
+.text-disable {
+	color: #b4bcc2;
 }
