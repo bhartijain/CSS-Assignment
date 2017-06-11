@@ -8,7 +8,13 @@
 	margin:20px;	
 }
 .add-member {
-	float:right;
+	float: right;
+    color: white;
+    background-color: green;
+    border-width: 1px;
+    border-color: green;
+    font: 15px Arial;
+    padding: 10px;
 }
 .email-address {
 	margin-top:20px;
@@ -20,8 +26,13 @@ input[type="textbox"] {
 	margin-bottom:5px;
 }
 .btn-send-invitaion {
-	margin:15px;
-	display:block;
+    margin: 15px;
+    display: block;
+    padding: 5px 10px;
+    background-color: darkgrey;
+    color: white;
+    font: 15px arial;
+    border-style: none;
 }
 .email-section-seperator {
 /*	margin: 0px auto; */
@@ -41,7 +52,7 @@ input[type="textbox"] {
 }
 .btn-member {
 	float:right;
-	margin-top:-14px;
+	margin-top:-23px;
 	
 }
 .btn-member button {
@@ -71,4 +82,22 @@ input[type="textbox"] {
 }
 .btn-invitation button {
 	margin:5px;
+}
+
+.btn {	
+    padding: 8px;
+    background-color: white;
+    border-style: ridge;
+}
+
+.success-btn {
+	margin: 5px;
+    color: darkcyan;
+    border-color: darkcyan;
+}
+
+.cancel-btn {
+	margin:5px;
+	color:red;
+	border-color: red;
 }
