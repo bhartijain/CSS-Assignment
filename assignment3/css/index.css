@@ -18,6 +18,9 @@ img {
 	width:20%;
 	margin-left:20px;
 }
+.sidebar-icon{
+	display:none;
+}
 .navbar-dropdown {
     float: right;
     margin-top: 18px;
@@ -29,6 +32,22 @@ select {
 }
 .middle-container {
 	margin-top:20px;
+}
+
+@media only screen and (max-width:991px) {
+	img {
+		margin: auto;
+	    left: 0;
+    	right: 0;
+	    padding: 9px 10px;
+	    position: absolute;
+	    width:140px;
+	}
+	.sidebar-icon {
+		display:inline;
+		margin-left:20px;
+		margin-top:20px;
+	}
 }
 
 

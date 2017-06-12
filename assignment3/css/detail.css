@@ -102,9 +102,13 @@ input[type="textbox"] {
 	border-color: red;
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 991px) {
   input[type="textbox"] {
   	display:block;
   	margin-left:5px;
 	}
+
+    .detail-page {
+        width:100%;
+    }
 }
