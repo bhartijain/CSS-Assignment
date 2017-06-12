@@ -61,3 +61,9 @@
 .text-disable {
 	color: #b4bcc2;
 }
+
+@media only screen and (max-width: 1065px) {
+   .sidebar-organization a{
+	float:none;
+	}
+}
