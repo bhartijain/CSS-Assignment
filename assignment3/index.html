@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		 <meta name="viewport" content="width=device-width, user-scalable=no" />
+		<link rel="icon" href="img/favicon.png"  sizes="16x16">
+		<link rel = "stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel = "stylesheet" type="text/css" href="css/index.css">
+		<link rel = "stylesheet" type="text/css" href="css/detail.css">
+		<link rel = "stylesheet" type="text/css" href="css/sidebar.css">
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar">
+				<button class="sidebar-icon">= </button>
+				<img src="img/logo.png">
+				<div class="navbar-dropdown">
+						<select>
+							<option> Your name </option>
+							<option>Logout</option>
+						</select>
+				</div>
+			</nav>
+			<div class="middle-container">
+
+				<div class = "sidebar-container">
+					<div class="sidebar-option">
+						<ul class="sidebar-option-list">
+							<li><span class="fa fa-users"></span>Members</li>
+							<li><i class="fa fa-globe"></i>Webhooks</li>
+							<li><span class="fa fa-users"></span>Runs, Tags and Event Logs</li>
+							<li><i class="fa fa-globe"></i>Reports</li>
+						</ul>
+					</div>
+
+					<hr class="sidebar-middle-seperator">
+
+					<div class="sidebar-organization">
+						<h4><i class="fa fa-globe"></i>Organization</h4>
+						<hr class="organization-seperator">
+						<h5>Organization Name</h5>
+						<a href="#">Details</a>
+						<ul class="organization-list">
+							<li>You are the owner</li>
+							<li>Members(3)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="detail-page">
+					<div class="email-section">
+						<span>Invite new member with their company email address</span>
+						<button class = "add-member">Add members</button>
+						<div class="email-address">
+							<span>Enter multiple email address</span>
+							<input type="textbox">
+							<span class="text-disable">Seperate multiple email addresses using comma(,) or by pressing enter</span>
+							<button class="btn-send-invitaion" disabled>Send Invitation</button>
+						</div>
+					</div>
+
+					<hr class="email-section-seperator">
+
+					<div class="member-section">
+						<ul class="member-list">
+							<li>
+								<h3>Members(3)</h3>
+							</li>
+							<li>
+								<strong>Member_one</strong><span class="text-disable"> (You are the owner)</span>
+							</li>
+							<li>
+								<strong>Member_two</strong>
+									<br>
+								<span class="text-disable">b@gmail.com</span>
+								<div class="btn-member">
+									<button class="btn success-btn">Make Owner</button>
+									<button class="btn cancel-btn">Remove</button>
+								</div>
+
+							<li>
+							<li>
+								<strong>Member_three</strong>
+								<br>
+								<span class="text-disable">a@gmail.com</span>
+								<div class="btn-member">
+									<button class="btn success-btn">Make Owner</button>
+									<button class="btn cancel-btn">Remove</button>
+								</div>
+								
+							<li>
+						</ul>
+					</div>
+
+					<hr class="member-section-seperator">
+
+					<div class="invitation-section">
+						<span>There are <a href="#!">2 Pending Invitation</a></span>
+						<br>
+						<ul class="invitation-list">
+							<li>
+								<span>b@gmail.com <span class="text-disable">has been invited</span></span>
+								<div class="btn-invitation">
+									<button class="btn success-btn">Resend</button>
+									<button class="btn cancel-btn">Cancel</button>
+								</div>
+							</li>
+							<li>
+								<span>b@gmail.com <span class="text-disable">has been invited</span></span>
+								<div class="btn-invitation">
+									<button class="btn success-btn">Resend</button>
+									<button class="btn cancel-btn">Cancel</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+				
+				
