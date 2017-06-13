@@ -112,3 +112,67 @@ input[type="textbox"] {
         width:100%;
     }
 }
+
+@media only screen and  (max-width: 1124px) and (min-width: 992px) {
+    .add-member {
+        padding:5px;
+    }
+    .btn {
+        padding:5px;
+    }
+ 
+}
+
+@media only screen and (max-width:500px) and (min-width: 360px) {
+
+    .detail-page {
+        font-size:13px;
+    }
+    .add-member {
+        padding:2px;
+    }
+    .btn-send-invitaion {
+        margin-left:-1px;
+        margin-top:10px;
+        padding:3px 3px;
+    }
+    input[type="textbox"]  {
+        height:70px;
+    }
+    .btn {
+        padding:1px;
+    }
+    .btn-member {
+        float: right;
+        margin-top: -35px;
+        margin-right: -29px;
+    }
+    .btn-invitation {
+        margin-right:-4px;
+        margin-top:-37px;
+    }
+    .text-disable {
+        display:block;
+    }
+    img {
+        padding:17px 3px;
+        width:91px;
+    }
+    select {
+        font-size:small;
+        margin-right:-30px;
+    }
+}
+
+@media only screen and (max-width:700px) and (min-width:501px) {
+    img {
+        padding:12px 12px;
+        width:120px;
+    }
+    .add-member {
+        padding:3px;
+    }
+    .btn {
+        padding:5px;
+    }
+}
