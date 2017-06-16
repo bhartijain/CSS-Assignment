@@ -1,0 +1,93 @@
+$container-bg-color: #C7BDBD;
+$sidebar-bg-color: #2E3A4D;
+$active-tab: black;
+.container {
+	height:600px;
+	background-color: $container-bg-color;
+
+	.sidebar {
+		height: 100%;
+	    width: 230px;
+	    background-color: $sidebar-bg-color;
+	    float: left;
+	    color: white;
+	    padding-top: 30px;
+
+	    .name-first-letter{
+	    	font-size: 50px;
+		    border-color: white;
+		    border: 2px solid;
+		    border-radius: 50%;
+		    padding: 0px 15px 0px 15px;
+		    margin-left: 10%;    	
+
+	    }
+
+	    h3 {
+	    	font-size:30px;
+	    	padding-left:20px;
+	    }
+
+	    h5 {
+	    	font-size: 15px;
+    		padding: 10px;
+    		padding-left:20px;
+	    }
+
+	    hr {
+    	    margin: 0px;
+		    width: 215px;
+    		background-color: #EcEcEe;
+    		padding: 0px;
+	    }
+
+	    h4 {
+    	    font-size: 25px;
+    		margin-top: 10px;
+    		padding-left:20px;
+    		.fa {
+    			float: right;
+			    margin-top: 6px;
+			    padding-right: 10px;
+			    font-size: 25px;
+    		}
+	    }
+	    ul{
+	    	list-style-type: none;
+    		padding: 0px;
+    		font-size: 18px;
+	    }
+
+	    li {
+	    	height:40px;
+	    	padding-left:20px;
+    		.fa {
+		    	font-size:15px;
+		    	margin-right:15px;
+	    	}
+
+	    	span {
+	    		margin-left:23px;
+	    	}
+	    }
+
+	    li:last-child {
+	    	padding-left:0px;
+	    	background-color:$active-tab;
+	    }
+
+	    .logout {
+    	    background-color: $active-tab;
+    		height: 40px;
+    		margin-top:186px;
+    		span {
+    			padding-left:24px;
+    		}
+    		.fa {
+    			margin-right:24px
+    		}
+	    }
+
+	   
+	}
+}
