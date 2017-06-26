@@ -4,9 +4,9 @@ $active-tab: black;
 .container {
 	height:600px;
 	background-color: $container-bg-color;
+	width:100%;
 
 	.sidebar {
-		height: 100%;
 	    width: 230px;
 	    background-color: $sidebar-bg-color;
 	    float: left;
