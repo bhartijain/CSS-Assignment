@@ -61,18 +61,18 @@ $active-tab: black;
 	    li {
 	    	height:40px;
 	    	padding-left:20px;
+	    	a{
+	    		text-decoration: none;
+	    		color:white;
+	    	}
     		.fa {
 		    	font-size:15px;
 		    	margin-right:15px;
 	    	}
 
-	    	span {
-	    		margin-left:23px;
-	    	}
 	    }
 
-	    li:last-child {
-	    	padding-left:0px;
+	    .reports {
 	    	background-color:$active-tab;
 	    }
 
@@ -80,9 +80,7 @@ $active-tab: black;
     	    background-color: $active-tab;
     		height: 40px;
     		margin-top:186px;
-    		span {
-    			padding-left:24px;
-    		}
+    		
     		.fa {
     			margin-right:24px
     		}
