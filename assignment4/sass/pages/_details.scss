@@ -64,6 +64,10 @@ $report-bg-color : #ffffff;
 			label {
 				color:blue;
 			}
+			.grey {
+				color:grey;
+			}
+
 			input[type="text"] {
 			    border-left: none;
 			    border-right: none;
@@ -74,6 +78,9 @@ $report-bg-color : #ffffff;
 			    border-bottom: 2px solid;
 			    border-color: blue;
     		}
+    		.grey-border {
+				border-color:grey !important;
+			}
 
 			button {
 				float: right;
@@ -116,22 +123,6 @@ $report-bg-color : #ffffff;
 			
 		}	
 
-	}
-
-	.test-report-2 {
-		@extend .test-report;
-		.user-detail {
-			label {
-				color:grey;
-			}
-			input[type="text"] {
-				border-color:grey;
-			}
-		}
-	}
-
-	.tag-summary {
-		@extend .test-report-2;
 	}
 
 }
