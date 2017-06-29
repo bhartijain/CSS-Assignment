@@ -100,15 +100,15 @@ $report-bg-color : #ffffff;
 			font-size: 14px;
 			.name {
 				padding: 4px;
-			    background-color: #868789;
+			    background-color: grey;
 			    border-radius: 23px;
 			    margin-right: 15px;
 			    margin-bottom: 10px;
 			    padding-right:8px;
 			    span {
-		    		background-color: red;
-				    padding: 1px;
-				    padding-left: 6px;
+		    		background-color: darkgrey;
+				    padding-left: 3px;
+				    padding-right:3px;
 				    margin-left: 5px;
 				    border-radius:50%;
 			    }
