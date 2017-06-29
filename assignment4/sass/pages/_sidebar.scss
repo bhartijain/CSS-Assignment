@@ -59,8 +59,9 @@ $active-tab: black;
 	    }
 
 	    li {
-	    	height:40px;
 	    	padding-left:20px;
+	    	padding-top:10px;
+	    	padding-bottom:10px;
 	    	a{
 	    		text-decoration: none;
 	    		color:white;
@@ -78,7 +79,6 @@ $active-tab: black;
 
 	    .logout {
     	    background-color: $active-tab;
-    		height: 40px;
     		margin-top:186px;
     		
     		.fa {
