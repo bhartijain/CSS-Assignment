@@ -1,0 +1,413 @@
+$report-bg-color : #ffffff;
+
+.middle-container {
+    position:relative;
+    margin-left:230px;
+	.page-status {
+    	background-color: $report-bg-color;
+    	margin: 5px;
+    	padding-bottom:15px;
+    	padding-top:10px;
+		span {
+			margin-left:20px;
+		}
+	}
+	.report {
+		background-color: $report-bg-color;
+	    margin: 5px;
+	}
+	.test-report {
+		.header {
+    		padding-bottom:40px;
+			.header-text {
+				float: left;
+	    		width: 35%;
+	    		margin-left:20px;
+			}
+
+			h5 {
+				color:blue;
+			}
+
+			.archive-report {
+				float:left;
+	    		margin: 10px 20px 5px 20px;
+	    		background-color:#624b3d;
+	    		color:white;
+	    		padding:5px;
+	    		border-color:#624b3d;
+			}
+
+			.subscription {
+				float: right;
+			    margin-right: 30px;
+			    color: red;
+			    margin-top: 8px
+			}
+		}
+		.detail {
+		    width: 100%;
+    		.report-img {
+			    width: 45%;
+			    text-align:center;
+				img {
+			        width: 20%;
+				}
+    		}   		
+    	
+		}
+
+		.user-detail {
+			width: 50%;
+			float:right;
+			margin-top:-130px;
+			label {
+				color:blue;
+			}
+			.grey {
+				color:grey;
+			}
+
+			input[type="text"] {
+			    border-left: none;
+			    border-right: none;
+			    border-top: none;
+			    display: block;
+			    margin-bottom: 20px;
+			    width: 91%;
+			    border-bottom: 2px solid;
+			    border-color: blue;
+    		}
+    		.grey-border {
+				border-color:grey !important;
+			}
+
+			button {
+				float: right;
+			    margin-right: 44px;
+			    background-color: #7E90e0;
+			    padding: 8px;
+			    border-color: #7e90e0;
+			    margin-top: -10px;
+			}
+			a {
+				text-decoration: none;
+			}
+		}
+		.user-name {
+		    margin-top: 15px;
+			width: 100%;
+			font-size: 14px;
+			.name {
+				padding: 4px;
+			    background-color: grey;
+			    border-radius: 23px;
+			    margin-right: 15px;
+			    margin-bottom: 10px;
+			    padding-right:8px;
+			    span {
+		    		background-color: darkgrey;
+				    padding-left: 3px;
+				    padding-right:3px;
+				    margin-left: 5px;
+				    border-radius:50%;
+			    }
+			    a {
+					text-decoration: none;
+				    color: white;
+				    font-size:10px;
+
+				}
+
+			}
+			
+		}	
+
+	}
+
+}
+
+
+@media only screen and (max-width:1275px) and (min-width:1024px){
+		.user-detail {
+		margin-top:-110px;
+	}
+	.detail {
+		padding-top:40px;
+	}
+
+	.subscription {
+		font-size:15px;
+	}
+	.user-name {
+		font-size:25px;
+	}
+	.org-name {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px)  {
+	.header {
+		.logo {
+			width:17%;
+			margin-top:10px;
+			margin-left:35%;
+		}
+
+		.fa {
+		    margin-left: -45%;
+    		margin-top: 2.2%;
+		}
+
+		.searchbar {
+			margin-left:6%;
+		}
+	}
+	.sidebar {
+		display:none;
+	}
+	.middle-container {
+		margin-left: 0px;
+		float:none;
+		width:100%;
+	}
+	.detail {
+		padding-top:58px;
+
+		.report-img {
+			img {
+				margin-bottom:15px;
+			}
+		}
+	}
+	.subscription {
+		font-size:15px;
+	}
+
+}
+
+@media only screen and (max-width:1023px) and (min-width:900px){
+	.headre {
+		.logo {
+			width:15%;
+		}
+	}
+}
+
+@media only screen and (max-width:767px) and (min-width:320px)  {
+	.header {
+		.logo {
+			width:17% !important;
+			margin-top:12px !important;
+			margin-left:30% !important;
+		}
+
+		.fa {
+		    margin-left: -38% !important;
+    		margin-top: 3.2% !important;
+		}
+
+		.searchbar {
+			margin-top:18px !important;
+			width:45% !important;
+			input[type="search"] {
+				width:93% !important;
+			}
+		}
+	}
+	.sidebar {
+		display:none;
+	}
+	.middle-container {
+		float:none;
+		width:100% !important;
+		margin-left:0px !important;
+		.header {
+			padding-top:10px !important;
+			.header-text {
+				margin-left:10px !important;
+			}
+			.archive-report {
+			    margin: 5px 10px 5px 10px !important;
+				padding:0px !important;
+			}
+			.subscription {
+				margin-right: 18px !important;
+				margin-top:14px !important;
+				font-size:13px !important;
+			}
+		}
+	}
+	.detail {
+		padding-bottom:13px !important;
+		.report-img {
+			padding-top:32px !important;
+			img {
+				margin-bottom:15px !important;
+			}
+		}
+
+		.user-detail {
+			padding-top:32px !important;
+
+			label {
+				font-size:14px !important;
+			}
+			.user-name {
+				font-size:10px !important;
+				span {
+				margin-right:7px !important;
+				margin-bottom:0px !important;
+				}
+			}
+			a{
+				font-size:12px !important;
+			}
+
+			button{
+				margin-right:10px !important;
+				padding:3px !important;
+				margin-top:-5px !important;
+			}
+
+			input[type="text"] {
+			margin-bottom:10px !important;
+			}
+		}	
+		
+	}
+	
+
+}
+
+@media only screen and (max-width:559px)  and (min-width:320px) {
+	.header {
+		.logo {
+			width:18% !important;
+			margin-top:21px !important;
+		}
+
+		.fa {
+    		margin-top: 4.2% !important;
+		}
+
+		.searchbar {
+			width:41% !important;
+			margin-left:30px;
+		}
+	}
+	
+	.middle-container {
+		.page-status {
+			padding-bottom: 10px;
+    		padding-top: 7px;
+			span{
+				font-size:13px;
+			}
+		}
+
+		.test-report {
+			.header {
+				padding-bottom:0px;
+				.header-text {
+					float:none;
+					margin-left:0px;
+					width:100%;
+					h3 {
+						font-size: 17px;
+						text-align:center;
+					}
+					h5 {
+						text-align:center;
+					}
+				}
+				.archive-report {
+					float:none;
+					margin:10px 30px 10px 50px;
+					display:inline-block;
+				}
+				.subscription {
+					float:none;
+					margin-right: 0px;
+					margin-left:40px;
+					margin-top: 0px;
+					display:inline-block;
+				}
+			}
+			.detail {
+				width:100%;
+				margin-top: 10px;
+    			padding-bottom: 10px;
+			}
+			.report-img {
+				width:100% !important;
+				text-align:center;
+			}
+			.user-detail {
+				width:100%;
+				float:none;
+				margin-top:0px;
+				margin-left:15px;
+				margin-top:8px;
+
+				a{
+					font-size:12px;
+				}
+
+				button {
+					padding:0px;
+					margin-top:-2px;
+				}
+
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:389px) and (min-width:320px) {
+	.header {
+		.navbar {
+			height:91px !important;
+		}
+		
+		.logo {
+			width:33% !important;
+			margin-top:16px !important;
+			margin-left:58% !important;
+		}
+		.fa {
+			margin-left:-81% !important;
+			margin-top:7.2% !important;
+		}
+		.searchbar {
+			margin-top:7px !important;
+			width: 95% !important;
+			margin-left:23px !important;
+		}
+	}
+	.middle-container {
+		.page-status {
+			span {
+				font-size:12px;
+			}
+		}
+		.header {
+			.archive-report {
+				font-size:11px ;
+				margin:10px 10px 10px 15px;
+			}
+			.subscription {
+				font-size:11px !important;
+				margin-right:0px !important;
+				margin-left:0px !important;
+			}
+		}
+		.user-name {
+			font-size:11px !important;
+		}
+
+	}
+}
+

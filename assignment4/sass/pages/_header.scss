@@ -1,0 +1,41 @@
+$header-bg-color: #FFFFFF;
+$search-bg-color: #EBEBEB;
+
+.header {
+
+	.navbar {
+	    width: 100%;
+		background-color: $header-bg-color;
+		height: 60px;
+	}
+
+	.logo {
+		width: 14%;
+    	margin-left: 22px;
+    	float: left;
+
+	}
+
+	.fa {
+		margin-left: 3%;
+	    margin-top: 1.2%;
+	    font-size: 22px;
+	    float: left;
+	}
+
+	.searchbar {
+	    float: left;
+		margin: 10px;
+		width: 40%;
+		margin-left: 20px;
+		margin-top: 13px;
+		height: 31px;
+	}
+	input[type="search"] {
+	    width: 100%;
+    	border: 0px;
+    	background-color: $search-bg-color;
+    	height: 30px;
+	}
+
+}

@@ -1,0 +1,91 @@
+$container-bg-color: #C7BDBD;
+$sidebar-bg-color: #2E3A4D;
+$active-tab: black;
+.container {
+	height:600px;
+	background-color: $container-bg-color;
+	width:100%;
+
+	.sidebar {
+	    width: 230px;
+	    background-color: $sidebar-bg-color;
+	    float: left;
+	    color: white;
+	    padding-top: 30px;
+
+	    .name-first-letter{
+	    	font-size: 50px;
+		    border-color: white;
+		    border: 2px solid;
+		    border-radius: 50%;
+		    padding: 0px 15px 0px 15px;
+		    margin-left: 10%;    	
+
+	    }
+
+	    h3 {
+	    	font-size:30px;
+	    	padding-left:20px;
+	    }
+
+	    h5 {
+	    	font-size: 15px;
+    		padding: 10px;
+    		padding-left:20px;
+	    }
+
+	    hr {
+    	    margin: 0px;
+		    width: 215px;
+    		background-color: #EcEcEe;
+    		padding: 0px;
+	    }
+
+	    h4 {
+    	    font-size: 25px;
+    		margin-top: 10px;
+    		padding-left:20px;
+    		.fa {
+    			float: right;
+			    margin-top: 6px;
+			    padding-right: 10px;
+			    font-size: 25px;
+    		}
+	    }
+	    ul{
+	    	list-style-type: none;
+    		padding: 0px;
+    		font-size: 18px;
+	    }
+
+	    li {
+	    	padding-left:20px;
+	    	padding-top:10px;
+	    	padding-bottom:10px;
+	    	a{
+	    		text-decoration: none;
+	    		color:white;
+	    	}
+    		.fa {
+		    	font-size:15px;
+		    	margin-right:15px;
+	    	}
+
+	    }
+
+	    .reports {
+	    	background-color:$active-tab;
+	    }
+
+	    .logout {
+    	    background-color: $active-tab;
+    		margin-top:186px;
+    		
+    		.fa {
+    			margin-right:24px
+    		}
+	    }
+
+	   
+	}
+}
